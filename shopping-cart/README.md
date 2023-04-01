@@ -13,4 +13,4 @@ Select a variant: <code>Typescript</code>
 <code>npm run dev</code>
 
 ## UI
-![image](https://user-images.githubusercontent.com/18031774/229263443-4fccec24-7aa4-49d0-8727-21cf7c4fd12b.png)
+![image](https://user-images.githubusercontent.com/18031774/229263480-92705723-53ba-4ea9-ab0f-110c4dce8eb3.png)
