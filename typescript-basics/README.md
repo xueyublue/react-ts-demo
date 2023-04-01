@@ -13,7 +13,7 @@
 
 <code>tsc -version</code>
 
-## Compile typescript,
+## Compile Typescript File
 
 ### Same filename with extension .js will be created under same folder
 
@@ -25,11 +25,11 @@ Option 2 (watch mode): <code>tsc --watch index.ts</code>
 
 <code>tsc init</code>
 
-## Now you can modify outDir and rootDir as needed, and then run below command to compile all files under src folder:
+### Now you can modify outDir and rootDir as needed, and then run below command to compile all files under src folder:
 
-$ tsc
+<code>tsc</code>
 
-## Run Javascript file:
+## Run Compiled Javascript file
 
 <code>cd ./dist</code>
 
