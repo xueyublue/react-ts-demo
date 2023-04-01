@@ -1,10 +1,12 @@
-How this project created?
+## How this project created?
 
-- npm create vite .
-- Select a framework: React
-- Select a variant: Typescript
-- run "npm install" to install dependencies
+<code>npm create vite .</code>
+
+- Select a framework: <code>React</code>
+- Select a variant: <code>Typescript</code>
 
 ## How to run this project?
 
-npm run dev
+<code>npm install</code>
+
+<code>npm run dev</code>
