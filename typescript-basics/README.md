@@ -10,20 +10,27 @@
 - Execute command: <code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned</code>
 
 ## To verify if typescript installed correctly
+
 <code>tsc -version</code>
 
-## Compile typescript, same filename with extension .js will be created under same folder
+## Compile typescript,
 
-$ tsc index.ts
-$ tsc --watch index.ts
+### Same filename with extension .js will be created under same folder
+
+Option 1: <code>tsc index.ts</code>
+
+Option 2 (watch mode): <code>tsc --watch index.ts</code>
 
 ## Create tsconfig.json
 
-$ tsc init
-Now you can modify outDir and rootDir as needed, and then run below command to compile all files under src folder:
+<code>tsc init</code>
+
+## Now you can modify outDir and rootDir as needed, and then run below command to compile all files under src folder:
+
 $ tsc
 
 ## Run Javascript file:
 
-$ cd ./dist
-$ node index.js
+<code>cd ./dist</code>
+
+<code>node index.js</code>
