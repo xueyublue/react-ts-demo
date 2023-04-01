@@ -1,23 +1,29 @@
-### Install typescript globally
+## Install Typescript globally
+
 $ sudo npm install -g typescript
 $ npm install --location=global typescript
 
-### For WIN only
+## For WIN only
+
 - open PowerShell as Adminsitrator
 - run "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned"
 
-### To verify 
+## To verify
+
 $ tsc -v
 
-### Compile typescript, same filename with extension .js will be created under same folder
+## Compile typescript, same filename with extension .js will be created under same folder
+
 $ tsc index.ts
 $ tsc --watch index.ts
 
-### Create tsconfig.json
+## Create tsconfig.json
+
 $ tsc init
 Now you can modify outDir and rootDir as needed, and then run below command to compile all files under src folder:
-$ tsc 
+$ tsc
 
-### Run Javascript file:
+## Run Javascript file:
+
 $ cd ./dist
 $ node index.js
