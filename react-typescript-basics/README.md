@@ -10,3 +10,4 @@ npx create-react-app . --template typescript
 4. npm run start
 
 ## How this project structured?
+<img width="197" alt="image" src="https://user-images.githubusercontent.com/18031774/229262294-51208baa-e756-4e21-a1d0-ba144b459453.png">
