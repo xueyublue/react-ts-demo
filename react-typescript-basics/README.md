@@ -1,6 +1,6 @@
 ## How this project created?
 
-npx create-react-app . --template typescript
+<code>npx create-react-app . --template typescript</code>
 
 ## How to run this project?
 
