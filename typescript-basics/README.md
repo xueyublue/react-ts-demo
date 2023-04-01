@@ -1,16 +1,16 @@
 ## Install Typescript Globally
 
-$ sudo npm install -g typescript
-$ npm install --location=global typescript
+<code>sudo npm install -g typescript</code>
 
-## For WIN only
+<code>npm install --location=global typescript</code>
 
-1. open PowerShell as Adminsitrator
-2. run "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned"
+## For Windows only
 
-## To verify
+- Open PowerShell as Adminsitrator.
+- Execute command: <code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned</code>
 
-$ tsc -v
+## To verify if typescript installed correctly
+<code>tsc -version</code>
 
 ## Compile typescript, same filename with extension .js will be created under same folder
 
